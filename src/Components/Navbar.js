@@ -3,7 +3,7 @@ import "../Styles/navbar.css";
 function Navbar() {
   return (
     <div className="navbar">
-      <div className="navbar-title">
+     <div className="navbar-title">
         <h2>Lazy~Student</h2>
       </div>
       <div className="links">
@@ -12,6 +12,7 @@ function Navbar() {
         <a href="/config">Config</a>
         <a href="/profile">Profile</a>
       </div>
+      
     </div>
   );
 }

@@ -18,9 +18,10 @@
 }
 
 .navbar-title {
+  pointer-events: none;
+  position: absolute;
   width: inherit;
   height: inherit;
-  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
