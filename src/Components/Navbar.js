@@ -3,6 +3,9 @@ import "../Styles/navbar.css";
 function Navbar() {
   return (
     <div className="navbar">
+      <div className="navbar-title">
+        <h2>Lazy~Student</h2>
+      </div>
       <div className="links">
         <a href="/home">Home</a>
         <a href="/about">About</a>

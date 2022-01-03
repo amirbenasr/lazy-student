@@ -6,7 +6,6 @@ function App() {
       <Navbar></Navbar>
       <Container></Container>
       {/* <Navbar></Navbar> */}
-      test
 
     </div>
   );

@@ -1,5 +1,5 @@
+@import "../Variables/variables.scss";
 .homepage {
-  background-color: red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,10 +26,10 @@
   margin-top: 50px;
   border: none;
   cursor: pointer;
-  background-color: rgb(255, 255, 255);
+  background-color: $button-color;
   padding: 15px;
 
   &:hover {
-    background-color: rgb(224, 220, 220);
+    background-color: $button-color-accent;
   }
 }

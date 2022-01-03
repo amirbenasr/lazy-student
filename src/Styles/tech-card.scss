@@ -1,10 +1,11 @@
+@import "../Variables/variables.scss";
 img {
   height: 150px;
   width: 150px;
 }
 
 .tech-card {
-  border: 2.5px white solid;
+  border: 2.5px #f9f9f9 solid;
   width: 150px;
   display: flex;
 
@@ -13,7 +14,7 @@ img {
   align-items: center;
 
   &:hover {
-    border: 2.5px solid rgb(118, 118, 126);
+    border: 2.5px solid $selected-color;
   }
   p {
     font-style: italic;

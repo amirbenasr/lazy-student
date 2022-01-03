@@ -4,7 +4,7 @@ img {
 }
 
 .tech-card {
-  border: 2.5px white solid;
+  border: 2.5px #f9f9f9 solid;
   width: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,7 +19,7 @@ img {
 }
 
 .tech-card:hover {
-  border: 2.5px solid #76767e;
+  border: 2.5px solid #5fb1d4;
 }
 
 .tech-card p {

@@ -4,7 +4,7 @@ import '../Styles/container.css'
 
 function Container() {
     return (
-        <div class="container">
+        <div className="container">
             <HomePage></HomePage>
         </div>
     )

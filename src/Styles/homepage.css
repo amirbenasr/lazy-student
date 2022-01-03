@@ -1,5 +1,4 @@
 .homepage {
-  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,11 +38,11 @@
   margin-top: 50px;
   border: none;
   cursor: pointer;
-  background-color: white;
+  background-color: #1d9ad1;
   padding: 15px;
 }
 
 .start-button:hover {
-  background-color: #e0dcdc;
+  background-color: #5fb1d4;
 }
 /*# sourceMappingURL=homepage.css.map */
