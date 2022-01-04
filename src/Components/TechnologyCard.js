@@ -1,5 +1,6 @@
 import React from "react";
 import '../Styles/tech-card.css';
+import Button from '@mui/material/Button';
 function TechnologyCard({image,specialty}) {
    var props = {image,specialty};
   return (
