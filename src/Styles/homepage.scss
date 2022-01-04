@@ -5,8 +5,16 @@
   align-items: center;
 }
 
+img {
+  width: 100% !important;
+  height: 650px !important;
+}
 .onboarding-text {
+
+  position: absolute;
   margin: 20px;
+  left: 780px;
+  color: white;
   p {
     font-size: 6rem;
     display: inline-block;
@@ -23,7 +31,7 @@
 .start-button {
   width: 150px;
   background: none;
-  margin-top: 50px;
+  // margin-top: 50px;
   border: none;
   cursor: pointer;
   background-color: $button-color;

@@ -11,8 +11,16 @@
           align-items: center;
 }
 
+img {
+  width: 100% !important;
+  height: 650px !important;
+}
+
 .onboarding-text {
+  position: absolute;
   margin: 20px;
+  left: 780px;
+  color: white;
 }
 
 .onboarding-text p {
@@ -35,7 +43,6 @@
 .start-button {
   width: 150px;
   background: none;
-  margin-top: 50px;
   border: none;
   cursor: pointer;
   background-color: #1d9ad1;
