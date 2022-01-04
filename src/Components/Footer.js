@@ -2,7 +2,7 @@ import React from 'react'
 import '../Styles/footer.css';
 function Footer() {
     return (
-        <div >
+        <div className='footer' >
 
         </div>
     )
