@@ -24,11 +24,20 @@
   align-items: center;
   justify-content: center;
 }
+
 .navbar .links {
   width: inherit;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+@media (max-width:680px) {
+  .navbar .links {
+    width: inherit;
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+  }
 }
 .navbar a {
   font-size: 25px;

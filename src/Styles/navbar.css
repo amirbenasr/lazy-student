@@ -46,6 +46,19 @@
           justify-content: flex-end;
 }
 
+@media (max-width: 680px) {
+  .navbar .links {
+    width: inherit;
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+
 .navbar a {
   font-size: 25px;
   text-decoration: none;
