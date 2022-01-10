@@ -1,13 +1,12 @@
-import { Button } from "@mui/material";
 import React from "react";
 import "../Styles/homepage.css";
 import image from "../images/female-student.jpg";
-import Container from "./Container";
-import TechnologyCard from "./TechnologyCard";
+import { useNavigate} from 'react-router-dom'
 
 function HomePage() {
+  const history = useNavigate();
+  const navigateTo = () => history('/start');
   return (
-    <div className="container">
 
       <div className="homepage">
         <img src={image} />
@@ -16,7 +15,8 @@ function HomePage() {
           <p>
             Get your academic project done <br></br> <i>in Time</i>
           </p>
-        <Button variant="contained">Get Started</Button>
+        {/* <Button variant="contained">Get Started</Button> */}
+        <button className="start-button" onClick={navigateTo}>Get Started</button>
 
         </div>
 
@@ -48,7 +48,6 @@ function HomePage() {
         </div>
 
       </div>
-          </div>
   );
 }
 
